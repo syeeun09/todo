@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deplot": "gh-pages-d dist",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://syeeun09.github.io/todo/",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
