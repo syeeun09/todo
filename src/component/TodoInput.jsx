@@ -13,7 +13,7 @@ const TodoInput = ({addTodo}) => {
             addTodo(input);
             //input 을 빈 문자열로 초기화 => 사용자가 할 일을 추가한 뒤 입력 필드를 비움
             setInput('');
-        }
+        }i
     };
     //handleKeyDown : 이벤트 핸들러 함수, 키보드 이벤트가 발생했을 때 실행되며,
     //e로 키보드 입력에 대한 정보를 담고 있음
