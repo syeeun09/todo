@@ -3,7 +3,7 @@ import TodoInput from "./component/TodoInput";
 import TodoList from "./component/Todolist";
 import styles from "../src/css/Todo.module.css";
 
-function App() {
+function Todo.App() {
     const [todos, setTodos] = useState(() => {
         const storedTodos = localStorage.getItem("todos");
         return storedTodos ? JSON.parse(storedTodos) : [];
@@ -59,4 +59,4 @@ function App() {
     );
 }
 
-export default App;
+export default Todo.App;
