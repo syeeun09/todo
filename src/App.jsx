@@ -18,7 +18,8 @@ function App(){
         <div>
             <h1>to-do, you can do!</h1>
             <Todo2Input />
-            <Todo2List />
+            <Todo2List 
+                item = {additem}/>
         </div>
     );
 };
