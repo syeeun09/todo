@@ -16,12 +16,11 @@ function App(){
     
     return (
         <div>
-        <h1>to-do, you can do!</h1>
-        <Todo2Input />
-        <Todo2List />
-        <Todo2Item />
+            <h1>to-do, you can do!</h1>
+            <Todo2Input />
+            <Todo2List />
         </div>
-    )
+    );
 };
 
 export default App;
